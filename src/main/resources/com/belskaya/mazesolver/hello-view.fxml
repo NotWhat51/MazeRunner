@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="750.0" prefWidth="750.0" spacing="20.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.belskaya.mazesolver.controller.Controller">
+
+    <ImageView fx:id="img" pickOnBounds="true" preserveRatio="true" />
+    <Button onAction="#newMaze" text="Новый лабиринт" />
+    <Button onAction="#solveMaze" text="Найти решение" />
+    <Slider fx:id="width" majorTickUnit="5.0" max="60.0" min="10.0" minorTickCount="5" prefHeight="38.0" prefWidth="624.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="10.0" />
+    <Slider fx:id="height" majorTickUnit="5.0" max="60.0" min="10.0" minorTickCount="5" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="10.0" />
+
+</VBox>
